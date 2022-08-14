@@ -1,0 +1,5 @@
+---
+- name: Creating a file and filling it with text
+  artem_salnikov.my_own_collection.my_own_module:
+    path: "{{ dest_path }}"
+    content: "{{ content }}"
